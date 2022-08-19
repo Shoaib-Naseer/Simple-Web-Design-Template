@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+p{
+    line-height: 1.5;
+}
+nav{
+    background-color: black;
+    position: sticky;
+    width: 100%;
+}
+nav ul{
+    display: inline-flex;
+}
+nav ul li{
+    margin-left: 1em;
+    padding: 1em ;
+}
+nav ul li a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+svg{
+    float: right;
+    margin-top: 1em;
+    margin-right: 3em;
+    width: 1.2em;
+    stroke: white;
+    
+}
+svg path{
+    fill: white;
+}
+
+.image-container{
+    background-image: url(https://www.w3schools.com/w3images/la.jpg);
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -3;
+}
+.bottom-text{
+    position: absolute;
+    bottom: 3em;
+    color: white;
+    left:40%;
+    text-align: center;
+}
+.bottom-text h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: .7em 0;;
+}
+
+.bottom-text p{
+    font-size: 1.1rem;
+}
+.content{
+    max-width: 80%;
+    margin: auto;
+    padding: 5em 0;
+}
+.center{
+    text-align: center;
+}
+.head{
+    padding:0 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+}
+.subhead{
+    padding: 1.5em 1em;
+    font-style: italic;
+    opacity: .6;
+}
+
+.paragraph{
+    text-align: justify;
+    font-family: 'Lato',sans-serif;
+}
+
+.images{
+    padding: 1em;
+    margin-left:  4em;
+    margin-bottom: 1em;
+    
+}
+.one-image{
+    float: left;
+    width: 33%;
+}    
+.one-image img{
+    width: 45%;
+    border-radius: 5px;
+}
+.image-title{
+    padding:1em 0 1em 4em;
+}
+
+.black-cover{
+    width: 100%;
+    height: 135vh;
+    color: white;
+    background-color: black ;
+    margin-top: 15em;
+}
+
+.black-content-container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+    padding: 2em 0;
+}
+
+.text-center h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: .75rem;
+}
+.text-center p{
+    opacity: .6;
+    font-style: italic;
+    
+}
+.months{
+    display: block;
+    list-style: none;
+}
+.months li{
+    background-color: white;
+    color: black;
+    border-bottom: 1px lightgrey solid;
+    padding: .75em;
+}
+.months li p{
+    opacity: .7;
+}
+
+.months li p .red{
+    background-color: red;
+    color: white;
+    padding: .3em;
+    border-radius: 5px;
+    margin-left: 1em;
+}
+.months li p .circle{
+    opacity: 1;
+    float: right;
+    background-color: black;
+    color: white;
+    width: 1.5em;
+    text-align: center;
+    border-radius: 60%;
+}
+
+.slider{
+    display: grid;
+    margin: 4em 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    
+    
+}
+
+.slider-content{
+    background-color: white;
+    color:black;
+}
+
+
+.below-image-container{
+    padding: 1em;
+}
+.city{
+    margin-bottom:.5em ;
+}
+.date{
+    opacity: .7;
+    margin-bottom:.5em ;
+}
+.black-button{
+    color: white;
+    background-color: black;
+    padding: .75em 1em;
+    margin-top: 1em;
+    border: 0;
+    border-radius: 1.4em;
+}
+
+.black-button:hover{
+    background-color: grey;
+
+} 
+
+.white-container{
+    width: 80%;
+    margin: auto;
+    padding: 2em 0;
+    
+
+}
+.contact{
+    text-align: center;
+    margin: 5em 0;
+    
+}
+
+.contact-title{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 6px;
+    margin: 15px 0;
+}
+
+.contact-below{
+    font-style: italic;
+    opacity: .8;
+}
+
+.address{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 8em;
+}
+.address-form{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    
+}
+.fa {
+    margin-bottom: 10px;
+    
+}   
+input{
+    width: 100%;
+    padding: 8px;
+}
+
+.half input{
+    width: 50%;
+    margin-right: 12px ;
+}
+
+.half{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    margin-right: -30px;
+}
+
+.form button{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin:15px -20px 0  5px;
+    width: 6em;
+    text-transform: uppercase;
+}
+
+.below-img-full{
+    background-image: url("https://www.w3schools.com/w3images/map.jpg");
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    margin: 5em 0;
+    
+}
+footer{
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
